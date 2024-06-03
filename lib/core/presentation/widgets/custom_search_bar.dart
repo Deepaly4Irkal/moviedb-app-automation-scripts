@@ -22,6 +22,7 @@ class CustomSearchBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final textField = TextFormField(
+      key: const ValueKey("search_bar_movie"),
       controller: _controller,
       readOnly: readOnly,
       decoration: const InputDecoration(
