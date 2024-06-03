@@ -35,14 +35,14 @@ A directory integration_test has been created with various test scripts in .dart
 
 Project structure: Created a new directory called integration_test and then created Dart File with various test cases content
 moviedb-app/
-├── lib/
-├── test/
-├── integration_test/
-│   └── movie_detailed_screen.dart
-│   └── movie_list_sorted_display_rating.dart
-│   └── movie_list_sorted_popularity.dart
-│   └── search_functionality.dart
-└── pubspec.yaml
+-lib/
+-test/
+-- integration_test/
+----movie_detailed_screen.dart
+----movie_list_sorted_display_rating.dart
+----movie_list_sorted_popularity.dart
+----search_functionality.dart
+-pubspec.yaml
 
 Tools and Libraries
 Flutter Test: For writing and running unit tests.
